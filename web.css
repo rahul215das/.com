@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-image: url("background-image.png");
+    background-position: bottom;
+    height: 100vh;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto
+    
+}
+
+
+/* navbar */
+
+#navbar{
+    display: flex;
+    width: 100%;
+   
+    padding-right: 80px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+
+.middle{
+    gap: 27px;
+    display: flex;
+    margin: auto 164px;
+    font-size: 16px;
+}
+
+.middle a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.search-image{
+    margin: 16px 61px;
+}
+
+.btn{
+    height: 32px;
+    margin: 12px -50px;
+    background-color: #ED017F;
+    width: 69px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+
+.car-loan, .home-loan{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow:  1px 1px 20px grey;
+  background-color: #ffffff;
+  top: 14%;
+  left: 46%;
+}
+
+.section{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 35%;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    height: 40vhvh;
+    font-size: 32px;
+}
+
+.para1{
+    display: flex;
+    font-size: 37px;
+}
+
+.heading{
+    font-size: 64px;
+}
+
+.message{
+    font-size: 22px;
+    margin: 25px auto;
+    color: gray;
+}
+
+.button{
+    display: inline-block;
+    height: 32px;
+    margin: 15px auto;
+}
+
+.btn-1{
+    position: absolute;
+    width: 135px;
+    height: 5vh;
+    display: inline-block;
+    background-color: #ED017F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: -20px auto;
+}
+
+.btn-2{
+    position: absolute;
+    left: 32%;
+width: 165px;
+height: 5vh;
+border: 1px solid #ED017F;
+color: #ED017F;
+background-color: white;
+border-radius: 5px;
+margin: -20px auto;
+}
+
+.bottom{
+    margin: 40px 7px;
+}
+
+.home-loan{
+    font-size: 15px;
+    left: 83%;
+    top: 30%;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.family{
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    height: 90vh;
+}
